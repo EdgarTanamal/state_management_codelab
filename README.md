@@ -1,16 +1,16 @@
 # state_management_codelab
 
-A new Flutter project.
+Stateless & Statefull Widget project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+**Stateless Widget** Lebih sering digunakan ketika suatu interface tidak perlu berubah-ubah. Stateless Widget biasanya dipakai untuk membuat suatu website statis yang hanya berisi informasi tentang suatu hal dan tidak perlu berubah-ubah karena Stateless Widget tidak dapat memodifikasi isi dari data yang sudah terbuild.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Statefull Widget** Digunakan ketika didalam suatu interface ada beberapa status atau data yang perlu diperbarui seperti Pengisian form., yang berarti Statefull WIdget dapat memodifikasi dan menyesuaikan interface sesuai dengan apa yang User lakukan.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Kapan Widget yang satu lebih baik daripada Widget satunya**
+- Widget Stateless Lebih baik digunakan ketika website atau aplikasi yang dibuat itu Statis sehingga Website atau aplikasi lebih konsisten tanpa adanya perubahan.
+- Widget Statefull sering digunakan ketika User perlu melakukan suatu penginputan yang merubah data atau interface website atau aplikasi.
+
